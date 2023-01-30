@@ -1,0 +1,124 @@
+
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    color: rgb(53, 241, 84);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.gradient-button {
+    text-decoration: none;
+    width: 98%;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #16f021 51%, #85f0de 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 15px rgb(50, 212, 9);
+    transition: .5s;
+    border-color: green;
+    margin-top: 35px;
+  }
+.gradient-button:hover {
+    background-position: right center;
+  }
+
+#popUp {
+    display: none;
+    position: fixed;
+    font-size: 30px;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;   
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.2);
+}
+
+#form{
+    background-color: rgb(224, 236, 47);
+    margin: 15%, auto;
+    padding: 60px;
+    width: 35%;
+    border: 3px solid #47b8fa ;
+    margin-top: 70px;
+    margin-left: 390px;
+    box-shadow: 0 0 20px blue;
+    border-radius: 150px;
+}
+
+input#Uzdevums{
+
+    border-style: solid;
+    border-color: #47b8fa;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+input#Termins{
+
+    border-style: solid ;
+    border-color: #47b8fa;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#pievienot{
+    border-color: #47b8fa;
+    width: 100px;
+    margin-left: 190px;
+    margin-top: 10px;
+
+}
+
+h3{
+
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-color: blue;
+
+}
+
+.id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #47b8fa;
+    border-radius: 15px;
+    height: 100px;
+    width: 350px;
+    padding: 15px;
+    background-color: rgb(148, 252, 144);
+    margin:20px;
+    box-shadow:0 0 15px chartreuse;
+    margin-right: 20px;
+
+}
+
+#biblioteka{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
